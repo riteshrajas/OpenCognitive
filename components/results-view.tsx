@@ -323,7 +323,7 @@ export function ResultsView({
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors underline underline-offset-4"
           >
-            GitHub Repository (Fork & Read)
+            GitHub Repository
           </a>
         </div>
       </footer>

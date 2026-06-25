@@ -112,7 +112,7 @@ export function LandingView({ onStart, onAbout }: { onStart: () => void; onAbout
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors underline underline-offset-4"
           >
-            GitHub Repository (Fork & Read)
+            GitHub Repository
           </a>
         </div>
         <span>Open Science Framework compliant.</span>
