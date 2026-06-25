@@ -188,8 +188,18 @@ export function AboutView({ onBack }: { onBack: () => void }) {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl w-full mx-auto px-6 py-6 border-t border-border text-center text-xs text-muted-foreground">
-        Developed by Ritesh. OpenCognitive research dossier. Developed for educational analysis.
+      <footer className="max-w-4xl w-full mx-auto px-6 py-6 border-t border-border text-center text-xs text-muted-foreground space-y-2">
+        <div>Developed by Ritesh. OpenCognitive research dossier. Developed for educational analysis.</div>
+        <div>
+          <a 
+            href="https://github.com/riteshrajas/OpenCognitive" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-white transition-colors underline underline-offset-4"
+          >
+            GitHub Repository (Fork & Read)
+          </a>
+        </div>
       </footer>
 
     </main>

@@ -314,8 +314,18 @@ export function ResultsView({
       </section>
 
       {/* Bottom Technical Status Bar */}
-      <footer className="max-w-4xl w-full mx-auto px-6 py-6 border-t border-border text-center text-xs text-muted-foreground">
-        Developed by Ritesh. OpenCognitive diagnostic battery completed locally.
+      <footer className="max-w-4xl w-full mx-auto px-6 py-6 border-t border-border text-center text-xs text-muted-foreground space-y-2">
+        <div>Developed by Ritesh. OpenCognitive diagnostic battery completed locally.</div>
+        <div>
+          <a 
+            href="https://github.com/riteshrajas/OpenCognitive" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-white transition-colors underline underline-offset-4"
+          >
+            GitHub Repository (Fork & Read)
+          </a>
+        </div>
       </footer>
 
     </main>

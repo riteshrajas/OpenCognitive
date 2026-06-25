@@ -103,7 +103,18 @@ export function LandingView({ onStart, onAbout }: { onStart: () => void; onAbout
 
       {/* Footer status bar */}
       <footer className="max-w-6xl w-full mx-auto px-6 py-8 border-t border-border flex flex-col sm:flex-row items-center justify-between text-xs text-muted-foreground gap-4">
-        <span>Developed by Ritesh. No paywalls. Built for research.</span>
+        <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+          <span>Developed by Ritesh. No paywalls. Built for research.</span>
+          <span className="hidden sm:inline text-border">|</span>
+          <a 
+            href="https://github.com/riteshrajas/OpenCognitive" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-white transition-colors underline underline-offset-4"
+          >
+            GitHub Repository (Fork & Read)
+          </a>
+        </div>
         <span>Open Science Framework compliant.</span>
       </footer>
 
